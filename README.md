@@ -12,7 +12,9 @@ and get the key that will allow us to decrypt our backups
 # How to use ?
 
 Make sure to put the `backup_config_new.db` file in the same folder as
-`decrypt.py` and pass a path to your file as the first argument !
+`decrypt.py` and pass a path to your file as the first argument. 
+
+I've added a sample (anonymized) database and a `speeddial_backup.xml` file to test it
 
 # Security comments
 
@@ -22,6 +24,8 @@ every file and lose more than half of the entropy in the derivation process.
 This choice of obfuscation certainly says something.
 
 This was disclosed to OnePlus and they did not care.
+
+# Credit
 
 Most if not all of the reverse work was done by a friend of
 mine, all credit goes to her
