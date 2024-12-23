@@ -11,8 +11,8 @@ and get the key that will allow us to decrypt our backups
 
 # How to use ?
 
-Make sure to put the `backup_config_new.db` file in the same folder as
-`decrypt.py` and pass a path to your file as the first argument. 
+Make sure to extract the iv and randomness from the `backup_config_new.db` file
+and pass a path to your file as the first argument of `decrypt.py`.  
 
 I've added a sample (anonymized) database and a `speeddial_backup.xml` file to test it
 
